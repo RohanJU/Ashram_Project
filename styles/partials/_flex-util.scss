@@ -1,6 +1,11 @@
 .flex {
     display: flex;
 
+    &--gap {
+        gap: 1rem;
+    }
+    
+
     &--align {
         &-items {
             &-baseline {

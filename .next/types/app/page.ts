@@ -1,4 +1,4 @@
-// File: /Users/satyam/Desktop/ashram/src/app/page.js
+// File: A:\collage\devo\Ashram_project\Ashram_Project\src\app\page.js
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
