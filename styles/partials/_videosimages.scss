@@ -1,0 +1,31 @@
+.carousel-section {
+  text-align: center;
+}
+
+.carousel-title {
+  font-size: 24px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.embla {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.embla__container {
+  display: flex;
+  gap: 10px;
+}
+
+.embla__slide {
+  flex: 0 0 30%; /* Adjust width based on how many slides should appear */
+  position: relative;
+}
+
+.embla__slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
