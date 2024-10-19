@@ -3,15 +3,13 @@
   margin: 3rem auto; /* mx-auto and mt-12 */
   padding: 0;
   height: 500px;
-  width: 500px;
-
+  width: 1000px;
 }
 .embla__container {
   display: flex;
   height: 100%;
   user-select: none; /* Prevent text selection while dragging */
-  touch-action: pan-y; /* Prevents touch scrolling while dragging horizontally */
-
+  touch-action: pan-y; /*/* Prevents touch scrolling while dragging horizontally */
 }
 .embla__slide {
   flex: 0 0 100%;
@@ -24,7 +22,39 @@
   background-color: #f5f5f5; /* Light background for slides */
   font-size: 1.5rem; /* Font size for the slide content */
   color: #333;
-  border-right: 1px solid #ddd; /* Optional: a divider between slides */
-  background: linear-gradient(to right, #ECCAB2,#AEE0C3); /* Gradient background */
-
+  border-right: 1px solid #ddd;
+  /* Optional: a divider between slides */
+  /*background: linear-gradient(to right, #ECCAB2,#AEE0C3);*/ /* Gradient background */
 }
+.carousel-section {
+  text-align: center;
+}
+
+.carousel-title {
+  font-size: 24px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.embla {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.embla__container {
+  display: flex;
+  gap: 10px;
+}
+
+.embla__slide {
+  flex: 0 0 30%; /* Adjust width based on how many slides should appear */
+  position: relative;
+}
+
+.embla__slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+

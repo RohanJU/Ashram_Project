@@ -1,0 +1,45 @@
+.slider-container {
+  width: 80%; /* Adjust width as needed */
+  margin: 0 auto; /* Center the slider container */
+  padding:50px; /* Add some padding around */
+  border-radius: 5px; /* Rounded corners */
+}
+
+h2 {
+  text-align: center; /* Center the headings */
+  color: #ec0303; /* Dark color for headings */
+  margin-bottom: 50px; /* Spacing below headings */
+}
+
+/* Add margin to the first slider to separate from the heading */
+.slider {
+  margin-bottom: 80px; /* Adjust as needed for spacing */
+}
+
+.slick-slide {
+  display: flex; /* Use flexbox for content alignment */
+  justify-content: center; /* Center items in slide */
+  align-items: center; /* Vertically center items */
+  height: 300px; /* Set a height for each slide */
+  border: 1px solid #0c0707; /* Light border around slides */
+  border-radius: 8px; /* Rounded corners for slides */
+  transition: transform 0.3s; /* Smooth scaling effect */
+}
+
+.slick-slide:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 1; /* Ensure navigation arrows are above slides */
+  color: #333; /* Color for navigation arrows */
+  font-size: 24px; /* Font size for navigation arrows */
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #e10510; /* Change color on hover */
+}
+
+

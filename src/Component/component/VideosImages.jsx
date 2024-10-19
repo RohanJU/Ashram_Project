@@ -1,61 +1,79 @@
 "use client";
-
-import React, { useEffect, useState } from "react";
-import Autoplay from "embla-carousel-autoplay";
-import useEmblaCarousel from "embla-carousel-react";
-import Image from "next/image";
-
-// Carousel component for reusable structure
-const Carousel = ({ slides }) => {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay()]);
-
-  useEffect(() => {
-    if (emblaApi) emblaApi.reInit();
-  }, [emblaApi]);
-
-  return (
-    <div className="embla" ref={emblaRef}>
-      <div className="embla__container">
-        {slides.map((slide, index) => (
-          <div className="embla__slide" key={index}>
-            <Image
-              src={slide}
-              alt={`Slide ${index}`}
-              width={300}
-              height={200}
-              style={{ borderRadius: "10px" }}
-            />
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
+import Slider from "react-slick";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
 
 export default function VideosImages() {
-  const videoSlides = [
-    "/images/video1.png", // Replace these paths with actual images
-    "/images/video2.png",
-    "/images/video3.png",
-    "/images/video4.png",
-  ];
-
-  const bookSlides = [
-    "/images/book1.png", // Replace these paths with actual images
-    "/images/book2.png",
-    "/images/book3.png",
-    "/images/book4.png",
-  ];
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+  };
 
   return (
-    <div className="carousel-section">
-      {/* Videos Section */}
-      <h2 className="carousel-title">Videos</h2>
-      <Carousel slides={videoSlides} />
-
-      {/* Books Section */}
-      <h2 className="carousel-title">Books</h2>
-      <Carousel slides={bookSlides} />
+    <div className="slider-container">
+    <h2>Videos</h2>
+      <Slider {...settings} className="slider">
+        <div>
+          <h3>1</h3>
+        </div>
+        <div>
+          <h3>2</h3>
+        </div>
+        <div>
+          <h3>3</h3>
+        </div>
+        <div>
+          <h3>4</h3>
+        </div>
+        <div>
+          <h3>5</h3>
+        </div>
+        <div>
+          <h3>6</h3>
+        </div>
+        <div>
+          <h3>7</h3>
+        </div>
+        <div>
+          <h3>8</h3>
+        </div>
+        <div>
+          <h3>9</h3>
+        </div>
+      </Slider>
+      <h2>Books</h2>
+      <Slider {...settings}>
+        <div>
+          <h3>1</h3>
+        </div>
+        <div>
+          <h3>2</h3>
+        </div>
+        <div>
+          <h3>3</h3>
+        </div>
+        <div>
+          <h3>4</h3>
+        </div>
+        <div>
+          <h3>5</h3>
+        </div>
+        <div>
+          <h3>6</h3>
+        </div>
+        <div>
+          <h3>7</h3>
+        </div>
+        <div>
+          <h3>8</h3>
+        </div>
+        <div>
+          <h3>9</h3>
+        </div>
+      </Slider>
     </div>
   );
 }

@@ -8,11 +8,18 @@ export function EmblaCarousel() {
   return (
     <div className="embla" ref={emblaRef}>
       <div className="embla__container">
-        <div className="embla__slide">Slide 1</div>
-        <div className="embla__slide">Slide 2</div>
-        <div className="embla__slide">Slide 3</div>
-        <div className="embla__slide">Slide 4</div>
-
+        <div className="embla__slide">
+          <img src="/images/pngegg (5) (1).png" alt="Slide 1" />
+        </div>
+        <div className="embla__slide">
+          <img src="/images/pngegg (4) (1).png" alt="Slide 1" />
+        </div>
+        <div className="embla__slide">
+          <img src="/images/pngegg (6) (1).png" alt="Slide 1" />
+        </div>
+        <div className="embla__slide">
+          <img src="/images/pngegg (6) (2).png" alt="Slide 1" />
+        </div>
       </div>
     </div>
   );
