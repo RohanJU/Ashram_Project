@@ -59,7 +59,16 @@ button {
 :before,
 :after {
   font-family: tods;
+}   
+
+button:hover {
+  background-color: $teaGreen;  
+  color: $white;
+}  
+a:hover{
+  color: $white;
 }
+
 
 img {
   max-width: 100%;
@@ -155,6 +164,9 @@ input[type=number]::-webkit-outer-spin-button {
 
 .cursor-pt {
   cursor: pointer;
+} 
+.hover-on{
+  background-color: $teaGreen;
 }
 
 .btn {
@@ -668,4 +680,3 @@ input[type=number]::-webkit-outer-spin-button {
     position: absolute;
   }
 }
-

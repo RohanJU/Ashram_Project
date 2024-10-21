@@ -1,6 +1,7 @@
 import React from 'react'
 import headerimg from "../../../public/images/pngegg.png"
-import Image from 'next/image'
+import Image from 'next/image' 
+
 function Header() {
   return (
     <nav className='nav'>
