@@ -54,6 +54,12 @@ font-weight: 100 900;
 .flex--align-self-center {
   align-self: center;
 }
+.flex--align-self-end {
+  align-self: flex-end;
+}
+.flex--align-self-start {
+  align-self: flex-start;
+}
 .flex--justify-content-evenly {
   justify-content: space-evenly;
 }
@@ -337,10 +343,13 @@ input[type=number]::-webkit-outer-spin-button {
   background-color: rgba(112, 112, 112, 0.8);
 }
 .bg--maroon {
-  background-color: #BB2953;
+  background-color: rgb(255, 201, 201);
 }
 .bg--success {
   background-color: #00981D;
+}
+.bg--black {
+  background-color: #000;
 }
 .bg--radius {
   border-radius: 10px;
@@ -353,7 +362,7 @@ input[type=number]::-webkit-outer-spin-button {
   color: #fc6a57;
 }
 .color--maroon {
-  color: #BB2953;
+  color: rgb(255, 201, 201);
 }
 .color--success {
   color: #00981D;
@@ -3205,6 +3214,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -3229,6 +3241,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -3255,6 +3270,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -3279,6 +3297,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -3305,6 +3326,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -3329,6 +3353,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -3355,6 +3382,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -3379,6 +3409,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -3405,6 +3438,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -3429,6 +3465,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -3455,6 +3494,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -3479,6 +3521,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -3505,6 +3550,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -3529,6 +3577,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -3555,6 +3606,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -3579,6 +3633,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -3605,6 +3662,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -3629,6 +3689,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -3655,6 +3718,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -3679,6 +3745,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -3705,6 +3774,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -3729,6 +3801,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -3755,6 +3830,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -3779,6 +3857,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -3805,6 +3886,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -3829,6 +3913,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -3855,6 +3942,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -3879,6 +3969,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -3905,6 +3998,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -3929,6 +4025,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -3955,6 +4054,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -3979,6 +4081,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -4005,6 +4110,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -4029,6 +4137,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -4055,6 +4166,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -4079,6 +4193,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -4105,6 +4222,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -4129,6 +4249,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -4155,6 +4278,9 @@ input[type=number]::-webkit-outer-spin-button {
 .width--column-90 {
   width: 91%;
 }
+.width--column-80 {
+  width: 81%;
+}
 .width--column-60 {
   width: 60%;
 }
@@ -4179,6 +4305,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .width--column-90 {
   width: 91%;
+}
+.width--column-80 {
+  width: 81%;
 }
 .width--column-60 {
   width: 60%;
@@ -4297,6 +4426,13 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .position--absolute {
   position: absolute;
+}
+
+.boxShadow {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.boxShadow--bg {
+  background: #FFFFFF;
 }
 
 h1 {

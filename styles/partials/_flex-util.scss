@@ -10,7 +10,7 @@
         }
         &-3{ 
             gap:3rem;  
-        }
+        } 
     }
     
     &--align {
@@ -34,6 +34,12 @@
         &-self {
             &-center {
                 align-self: center;
+            } 
+            &-end{
+                align-self: flex-end;
+            } 
+            &-start{
+                align-self: flex-start;
             }
         }
     }

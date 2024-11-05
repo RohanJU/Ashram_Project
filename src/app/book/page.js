@@ -6,7 +6,6 @@ import { Footer } from "@/Component/footer/Footer";
 import { Books } from "@/Component/book/Books";
 
 
-
 export default function Home() {
   return (
    <>

@@ -5,8 +5,8 @@ import { FaTwitter } from "react-icons/fa";
 
 export function Footer() {
     return (
-        <footer className=" container --fluid --responsive  pt--20 pb--20  pr--100 pl--100 bg--linearG" style={{ borderRadius: '3rem 3rem  0 0' }}>
-            <div className="container --responsive flex flex--justify-content-between flex--align-item-center flex--gap-1">
+        <footer className=" container --fluid --responsive  pt--20 pb--20  pr--100 pl--100 bg--linearG mt--20" style={{ borderRadius: '3rem 3rem  0 0' }}>
+            <div className="container --responsive flex flex--justify-content-between flex--gap-1">
 
                 <QuickLinks
                     hading='Quick Links'
@@ -39,23 +39,23 @@ export function Footer() {
 
 const QuickLinks = ({ hading, link1, link2, link3 }) => {
     return (
-        <div className="flex flex--direction-column flex--justify-content-start flex--align-item-center  pd--20 flex--gap-1">
-            <p className="mb--40 fs--20 font--bold" >{hading}</p>
+        <div className="flex flex--direction-column  pd--20 flex--gap-1">
+            <p className="mb--30 fs--20 font--bold " >{hading}</p>
             <Link
                 href="/book"
-                className="font--underline font--center"
+                className="font--underline "
             >
                 {link1}
             </Link>
             <Link
-                href="/donate"
-                className="font--underline font--center"
+                href="/gallery"
+                className="font--underline "
             >
                 {link2}
             </Link>
             <Link
-                href="/gallery"
-                className="font--underline font--center"
+                href="/donate"
+                className="font--underline "
             >
                 {link3}
             </Link>
@@ -66,7 +66,7 @@ const QuickLinks = ({ hading, link1, link2, link3 }) => {
 const FooterContent = ({ hading, P1, P2, P3 }) => {
     return (
         <div className="flex flex--direction-column flex--justify-content-start  pd--20 flex--gap-1 ">
-            <p className="mb--40 fs--20 mt--10 font--bold font--center" >{hading}</p>
+            <p className="mb--40 fs--20 mt--10 font--bold " >{hading}</p>
             <p>{P1}</p>
             <p>{P2}</p>
             <p>{P3}</p>
