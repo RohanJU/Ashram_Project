@@ -124,12 +124,12 @@ input:-webkit-autofill {
   -webkit-animation-name: autofill;
   -webkit-animation-fill-mode: both;
 }
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    margin: 0; 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
 }
 
 .container {
@@ -171,7 +171,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .btn {
   outline: 0;
-  padding: 18px 50px;
+  padding: 18px 30px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -182,12 +182,12 @@ input[type=number]::-webkit-outer-spin-button {
   vertical-align: middle;
   text-align: center;
   line-height: normal;
-  border-radius: 8px;
+  border-radius: 30px;
 
   &--outline {
     color: $black;
-    border: 1px solid $black;
-    
+    border: 2px solid $black;
+
     &-gold {
       color: $goldColor;
       border: 1px solid $goldColor;
@@ -230,7 +230,7 @@ input[type=number]::-webkit-outer-spin-button {
     background-color: $white;
 
     &-off {
-      background-color: rgba($lightGrey, .5);
+      background-color: rgba($lightGrey, 0.5);
     }
   }
 
@@ -240,8 +240,8 @@ input[type=number]::-webkit-outer-spin-button {
 
   &--blue {
     background-color: $blue;
-    &-light{
-      background-color: #323A4E;
+    &-light {
+      background-color: #323a4e;
     }
   }
 
@@ -251,10 +251,9 @@ input[type=number]::-webkit-outer-spin-button {
     &-light {
       background-color: rgba($lightGrey, 0.8);
     }
-   
   }
   &--maroon {
-    background-color:$maroon;
+    background-color: $maroon;
   }
   &--success {
     background-color: $success;
@@ -276,7 +275,7 @@ input[type=number]::-webkit-outer-spin-button {
   &--error {
     color: $error;
   }
-  &--maroon{
+  &--maroon {
     color: $maroon;
   }
 
@@ -346,7 +345,6 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @for $i from 1 through 60 {
- 
   .pd {
     &--#{$i * 5} {
       padding: #{$i * 5}px;
@@ -489,8 +487,8 @@ input[type=number]::-webkit-outer-spin-button {
     }
   }
 }
-.border{
-  &--none{
+.border {
+  &--none {
     border: none;
   }
 }
@@ -506,54 +504,49 @@ input[type=number]::-webkit-outer-spin-button {
   .width {
     &--column {
       &-two {
-
         // 25px
         &-#{$i} {
-          width:calc(100% / 2 - #{$i}px);
+          width: calc(100% / 2 - #{$i}px);
         }
       }
 
       &-three {
-
         // 35px
         &-#{$i} {
-          width:calc(100% / 3 - #{$i}px);
+          width: calc(100% / 3 - #{$i}px);
         }
       }
 
       &-four {
-
         // 30px
         &-#{$i} {
-          width:calc(100% / 4 - #{$i}px);
+          width: calc(100% / 4 - #{$i}px);
         }
       }
 
       &-five {
-
         // 16px
         &-#{$i} {
-          width:calc(100% / 5 - #{$i}px);
+          width: calc(100% / 5 - #{$i}px);
         }
       }
 
       &-six {
-
         // 16px
         &-#{$i} {
-          width:calc(100% / 6 - #{$i}px);
+          width: calc(100% / 6 - #{$i}px);
         }
       }
-      &-90{
+      &-90 {
         width: 91%;
       } 
       &-80{
         width: 81%;
       }
-      &-60{
+      &-60 {
         width: 60%;
       }
-      &-40{
+      &-40 {
         width: 40%;
       }
     }
@@ -596,7 +589,7 @@ input[type=number]::-webkit-outer-spin-button {
     &-border {
       border: 1px solid $error !important;
 
-      +.placeholder-txt {
+      + .placeholder-txt {
         color: $error !important;
       }
     }
@@ -678,11 +671,11 @@ input[type=number]::-webkit-outer-spin-button {
     }
   }
 }
-.position{
-  &--relative{
+.position {
+  &--relative {
     position: relative;
   }
-  &--absolute{
+  &--absolute {
     position: absolute;
   }
 } 

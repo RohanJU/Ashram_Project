@@ -5,7 +5,7 @@ import { FaTwitter } from "react-icons/fa";
 
 export function Footer() {
     return (
-        <footer className=" container --fluid --responsive  pt--20 pb--20  pr--100 pl--100 bg--linearG mt--20" style={{ borderRadius: '3rem 3rem  0 0' }}>
+        <footer className=" container --fluid --responsive  pt--20 pb--20  pr--100 pl--100 bg--linearG mt--20 flex--wrap" style={{ borderRadius: '3rem 3rem  0 0' }}>
             <div className="container --responsive flex flex--justify-content-between flex--gap-1">
 
                 <QuickLinks
@@ -39,7 +39,7 @@ export function Footer() {
 
 const QuickLinks = ({ hading, link1, link2, link3 }) => {
     return (
-        <div className="flex flex--direction-column  pd--20 flex--gap-1">
+        <div className="flex flex--direction-column pd--20 flex--gap-1" style={{minWidth:'100px'}}>
             <p className="mb--30 fs--20 font--bold " >{hading}</p>
             <Link
                 href="/book"
@@ -65,7 +65,7 @@ const QuickLinks = ({ hading, link1, link2, link3 }) => {
 
 const FooterContent = ({ hading, P1, P2, P3 }) => {
     return (
-        <div className="flex flex--direction-column flex--justify-content-start  pd--20 flex--gap-1 ">
+        <div className="flex flex--direction-column flex--justify-content-start  pd--20 flex--gap-1 " style={{minWidth:'100px'}}>
             <p className="mb--40 fs--20 mt--10 font--bold " >{hading}</p>
             <p>{P1}</p>
             <p>{P2}</p>
@@ -77,7 +77,7 @@ const FooterContent = ({ hading, P1, P2, P3 }) => {
 
 const SocialLinks = (props) => {
     return (
-        <div className="flex flex--direction-column flex--justify-content-start flex--align-item-center  pd--20 flex--gap-1  " >
+        <div className="flex flex--direction-column flex--justify-content-start flex--align-item-center  pd--20 flex--gap-1  " style={{minWidth:'100px'}} >
             <p className="mb--40 fs--20 font--bold" >{props.text}</p>
 
             <Link
